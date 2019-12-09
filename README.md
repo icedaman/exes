@@ -8,6 +8,8 @@
 
 5- No node.js command prompt escrever: node app.js
 
+6- No browser abrir http://localhost:3000/
+
 
 Obs: Depois de fazer estes passos, o projeto irá criar automaticamente uma pasta chamada "logs" com o ficheiro "citysLogFile.log", onde para 
 cada call feita à API do openweathermap (sempre que fôr adicionada uma cidade),  irá criar o registo com o url do request feito.
