@@ -1,0 +1,72 @@
+body {
+	width:100%;
+	margin:0;
+	padding:0;
+	text-align:center;
+	background-image: url("https://cdn.hipwallpaper.com/i/80/5/cimAa5.jpg");
+	background-color: #ccc;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.chart {
+	display: block;
+    margin: auto;
+    height: 300px;
+    width: 600px;
+    border-radius: 15px;
+    background: #373B44;
+    background: -webkit-linear-gradient(to right, #4286f4, #373B44);
+    background: linear-gradient(to right, #5477b1, #969dad);
+}
+
+.citysTable {
+	width: 600px;
+	border-radius: 15px;
+	margin: 30px auto;
+	font-size: 18px;
+	background: #5a8b96;
+    background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);
+    background: linear-gradient(to right, #4f67f1, #079abf);
+}
+
+.title {
+	font-size: 60px;
+    margin: 20px 0 40px 0;
+    color: #fff;
+    font-style: italic;
+}
+
+.inputForm {
+	margin: 10px 0 10px 25px;
+}
+
+.inputCity {
+	padding: 20px 30px;
+	font-size: 15px;
+    border: 2px solid #808396;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.addBtn {
+	padding: 18px 30px;
+	font-size: 15px;
+    border-radius: 30px;
+    background: #373B44;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px #1e35b3;
+    font-weight: bold;
+}
+
+.errorMsg {
+	margin-top: 170px;
+    color: #fff;
+    font-size: 27px;
+}
+
+.pointer {
+	cursor: pointer;
+}
